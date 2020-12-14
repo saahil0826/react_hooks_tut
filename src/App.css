@@ -1,38 +1,26 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@font-face {
+  font-family: 'Google-Bold';
+   src: url('./resources/Google-Sans-Font/GoogleSans-Bold.ttf')
+     format('truetype');
   }
+@font-face {
+  font-family: 'Gotham-Bold';
+   src: url('./resources/Google-Sans-Font/GothamBoldRegular.ttf')
+     format('truetype');
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@font-face {
+  font-family: 'Google-Medium';
+   src: url('./resources/Google-Sans-Font/GoogleSans-Medium.ttf')
+     format('truetype');
+}
+
+
+
+.App{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+  height: 100vh;
+  font-family: 'Google-Medium';
+background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);}

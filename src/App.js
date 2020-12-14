@@ -1,24 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Hookcounter from "./Hookcounter.js";
+import Toggle from "./Toggle.js";
+import SimpleFormInputHook from "./forms/SimpleFormInputHook.js";
+import SimpleFormHooks from "./forms/SimpleFormHooks.js";
+import SWMovies from "./movies/SWMovies.js";
+import MoviesDB from "./movies/MoviesDB.js";
+import JokeList from './Dadj/JokeList.js'
+
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MoviesDB />
     </div>
   );
 }
